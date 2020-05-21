@@ -9,6 +9,6 @@
 #keys are joe, amy, and tom. joe is the smallest value.
 
 def key_for_min_value(name_hash)
-  name_hash.collect do |name, value|
+  name_hash.each do |name, value|
     name.min
 end
